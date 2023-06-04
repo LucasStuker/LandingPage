@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LadingPage</title>
+</head>
+<body>
+    <div id="menuSup">
+        <img src="./assets/logo.svg"  id="logo" alt=" logo">
+        <h1 id="titleMenuSup">Dê os primeiros passos da <br> sua carreira em tecnologia</h1>
+        <p id="textMenuSup">Inscreva-se no curso gratuito de introdução à<br> tecnologia da DNC school e aprenda os principais <br> fundamentpos para construri experiências efetivas.</p>
+    
+    </div>
+    <div id="menuInfo">
+        
+        <p class="textInfo"><img src="assets/certify.svg"  class="icone" alt=" certificado">Certificado de conclusão</p>
+        <p class="textInfo"><img src= "assets/relogio.svg"class="icone" alt="relogico">4 horas de conteudo</p>
+        <p class="textInfo"><img src="assets/camera.svg" class="icone" alt="camera">Aulas online gravadas</p>
+
+    </div>
+    <div id="sectionVideo">
+        <iframe width="502" height="283" src="https://www.youtube.com/embed/9wA5SYrALz8" title="Seja bem-vindo(a) ao canal da Escola DNC!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div>
+            <h1 id="titleVideo">Aprenda com especialistas e<br> comece seu primeiro projeto</h1><br><br>
+        <p id="textVideo">Conheça o processo de desenvolvimento e entenda como utilizar<br> os principais métodos e ferramentas da área para resolver<br>problemas complexos<br><br>. Conquiste seu certificado e desenvolva um projeto prático para<br> aplicar seus conhecimentos.</p>
+        </div>
+    </div>
+    <!-- Fim do video-->
+    <div id="carrossel">
+        <h1 id="titleCarrousel">Mais de 500 alunos já iniciaram seus estudos</h1>
+        <div id="divCards">
+            <img id="setaEsquerda" onclick="rolarParaEsquerda()" class="seta" src="assets/setaEsquerda.svg"> 
+            <img id="leonardo" class="card" src= "cards/leonardo.svg" alt="leonardo">
+            <img id="samanta" class="card" src= "cards/samanta.svg" alt="samanta">
+            <img id="bruna" class="card" src= "cards/bruna.svg" alt="bruna">
+            <img id="setaDireita" onclick="rolarParaDireita()" class="seta" src="assets/setaDireita.svg">
+        </div>
+        
+    </div>
+    <div id="formulario">
+        <h1>Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+        <form>
+            <input type="text" placeholder="Nome"><br>
+            <input type="email" placeholder="Email"><br>
+            <input type="number" placeholder="Telefone"><br> 
+            <button>Acesse a ementa gratis</button> 
+
+        </form>
+    </div>
+<script src="main.js"></script>
+</body>    
+   
+</html>
